@@ -1,0 +1,45 @@
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: vazirNormal;
+}
+
+/* header */
+#header {
+    background: url('../images/bg.jpg') no-repeat center center;
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header .email-input {
+    direction: rtl;
+}
+
+#cards {
+    background-color: #f8f9fa;
+    padding: 90px 0;
+}
+
+#cards .card-item .icon svg {
+    font-size: 50px;
+    color: #1e88e5;
+}
+
+.team {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.contact {
+    background: url('../images/bg.jpg') no-repeat center center;
+    height: 200px;
+    background-attachment: fixed;
+    background-size: cover;
+}
