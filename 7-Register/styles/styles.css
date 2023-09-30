@@ -1,0 +1,112 @@
+@import url(reset.css);
+
+
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: vazirBold;
+    src: url('../fonts/vazir-bold.eot');
+    src: url('../fonts/vazir-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir-bold.woff2') format('woff2'), url('../fonts/vazir-bold.woff') format('woff'), url('../fonts/vazir-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* General Styles */
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 39%, rgba(0,212,255,1) 100%);
+    direction: rtl; 
+    font-family: 'vazirNormal';
+}
+
+input {
+    font-family: 'vazirNormal';
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* Login section */
+#login {
+    background-color: #fff;
+    width: 400px;
+    margin: 200px auto 0 auto;
+    border-radius: 3px;
+    padding: 60px;
+}
+
+#login #title {
+    font-family: 'vazirBold';
+    font-size: 23px;
+    color: #1E88E5;
+}
+
+#login form {
+    margin-top: 20px;
+}
+
+#login .label {
+    display: block;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+#login .input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: #e4e4e4;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#login .input:focus{
+    background-color: #e0e0e0;
+}
+
+
+#login .pass-visibility {
+    width: 18px;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 11px;
+    left: 5px;
+    display: none;
+}
+
+
+#login .pass-visibility:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+#login #password-container {
+    margin-top: 10px;
+    position: relative;
+}
+
+#login .btn {
+    width: 100%;
+    margin-top: 40px;
+    border: none;
+    background-color: #1E88E5;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+#login .btn:hover {
+    background-color: #1d7bcc;
+    cursor: pointer;
+}
