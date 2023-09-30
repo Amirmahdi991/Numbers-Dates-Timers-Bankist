@@ -1,0 +1,33 @@
+body {
+  font-family: "cascadia code";
+  /* background-color: rgb(251, 128, 185); */
+}
+
+#select-color {
+  background-color: rgba(59, 59, 59, 0.8);
+  color: #fff;
+  padding: 10px;
+  width: 400px;
+  border-radius: 5px;
+  margin: 200px auto 0 auto;
+}
+
+#select-color input[type="range"] {
+  width: 100%;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn #random {
+    border:0;
+    padding:8px 12px;
+    background-color: #dfdfdf;
+    border-radius: 3px;
+}
+
+.btn #random:hover{
+    cursor: pointer;
+    background-color: #b1b1b1 ;
+}
